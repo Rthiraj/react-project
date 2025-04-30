@@ -80,9 +80,10 @@ const HomePage = () => {
   // const [count, setCount] = useState(0);
 
   console.log('home');
-  const options = useMemo(() => {
-    filters;
-  }, [filters]);
+  const options = useMemo(() => (
+    {params: filters }
+  )
+  ,[filters]);
 
   // const options = () => {
   //   filters;
