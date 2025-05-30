@@ -15,7 +15,7 @@ const ListingFilters = ({ onChange }) => {
   console.log('helloo from listingFilters');
 
   return (
-    <div className='flex flex-row items-center justify-center gap-2'>
+    <div className='flex md:flex-row flex-col items-center justify-center gap-2 sm:flex-row'>
       <Input
         value={search}
         onChange={(e) => setSearch(e.target.value)}

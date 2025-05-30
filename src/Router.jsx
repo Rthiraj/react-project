@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
 import ListingDetailsCard from './components/ListingDetailsCard';
-import ArunPortfolio from './pages/ArunPortfolio';
 import HomePage from './pages/HomePage';
 import ListingDetailsPage from './pages/ListingDetailsPage';
 import NotFoundPage from './pages/NotFoundPage';
